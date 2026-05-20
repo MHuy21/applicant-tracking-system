@@ -15,6 +15,7 @@
         <module>services/job-service</module>
         <module>services/candidate-service</module>
         <module>services/application-service</module>
+        <module>services/notification-service</module>
     </modules>
 
     <properties>
