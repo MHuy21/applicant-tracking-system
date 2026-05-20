@@ -13,6 +13,7 @@
     <modules>
         <module>infra/api-gateway</module>
         <module>services/job-service</module>
+        <module>services/candidate-service</module>
     </modules>
 
     <properties>
