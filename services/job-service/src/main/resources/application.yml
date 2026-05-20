@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: job-service
+server:
+  port: 8081
+
+management:
+  endpoint:
+    web:
+        exposure:
+            include: health,info

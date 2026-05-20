@@ -12,6 +12,7 @@
     <!-- Danh sách các module con -->
     <modules>
         <module>infra/api-gateway</module>
+        <module>services/job-service</module>
     </modules>
 
     <properties>
