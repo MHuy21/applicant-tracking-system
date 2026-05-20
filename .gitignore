@@ -36,3 +36,15 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### IntelliJ IDEA (full directory) ###
+.idea/
+
+### Environment variables ###
+.env
+
+### Application logs ###
+logs/
+
+### Local data (Docker volumes, DB files...) ###
+data/

@@ -10,45 +10,28 @@
 		<relativePath>../../pom.xml</relativePath>
 	</parent>
 
-	<artifactId>api-gateway</artifactId>
+	<artifactId>eureka-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>api-gateway</name>
-	<description>API Gateway cho hệ thống TalentHub</description>
+	<name>eureka-server</name>
+	<description>Eureka Discovery Server cho hệ thống TalentHub</description>
 
 	<properties>
 		<java.version>21</java.version>
-		<spring-cloud.version>2025.0.2</spring-cloud.version>
 	</properties>
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring-cloud.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
 
 	<dependencies>
-		<!-- Spring Cloud Gateway - reactive gateway -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-gateway</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 		</dependency>
 
-		<!-- Spring Boot Test -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-		</dependency>
 	</dependencies>
+
 
 	<build>
 		<plugins>

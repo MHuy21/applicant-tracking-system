@@ -12,6 +12,7 @@
     <!-- Danh sách các module con -->
     <modules>
         <module>infra/api-gateway</module>
+        <module>infra/eureka-server</module>
         <module>services/job-service</module>
         <module>services/candidate-service</module>
         <module>services/application-service</module>

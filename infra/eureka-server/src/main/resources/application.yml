@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: eureka-server
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false # Eureka Server khong tu dang ky chinh no
+    fetch-registry: false       # Khong can lay registry tu noi khac
+  server:
+    wait-time-in-ms-when-sync-empty: 0 # Khong can doi khi sync registry trong truong hop khong co service nao dang ky
