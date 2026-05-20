@@ -20,6 +20,7 @@
         <module>services/notification-service</module>
         <module>services/cv-parser-service</module>
         <module>shared/common-web</module>
+        <module>shared/common-events</module>
     </modules>
 
     <properties>
