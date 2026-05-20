@@ -21,6 +21,7 @@
         <module>services/cv-parser-service</module>
         <module>shared/common-web</module>
         <module>shared/common-events</module>
+        <module>shared/common-security</module>
     </modules>
 
     <properties>

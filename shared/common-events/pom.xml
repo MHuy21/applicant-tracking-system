@@ -19,13 +19,11 @@
         <java.version>21</java.version>
     </properties>
     <dependencies>
-        <!-- Spring Boot Starter Core -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
-        <!-- Lombok - cần thiết để định nghĩa các Event DTO nhanh chóng (@Data, @Builder) -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -42,8 +40,6 @@
 
     <build>
         <plugins>
-            <!-- Chỉ sử dụng maven-compiler-plugin để xử lý annotation processor của Lombok -->
-            <!-- TUYỆT ĐỐI KHÔNG dùng spring-boot-maven-plugin vì đây là thư viện dùng chung, không phải app chạy độc lập -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
