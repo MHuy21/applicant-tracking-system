@@ -14,6 +14,7 @@
         <module>infra/api-gateway</module>
         <module>services/job-service</module>
         <module>services/candidate-service</module>
+        <module>services/application-service</module>
     </modules>
 
     <properties>

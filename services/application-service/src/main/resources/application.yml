@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: application-service
+server:
+  port: 8083
+management:
+  endpoint:
+    web:
+        exposure:
+            include: health,info
